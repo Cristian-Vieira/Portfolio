@@ -3,6 +3,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body{
+    background-color: #000;
+    color: #ffff;
+}
+
 .main{
 
     padding: 1rem;
