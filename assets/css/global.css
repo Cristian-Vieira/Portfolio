@@ -10,10 +10,7 @@
 }
 
 body{
-    /*Futuramente trocar as cores do gradiente
-    https://mycolor.space/gradient3?ori=to+right+bottom&hex=%23005BD1&hex2=%2304070B&hex3=%2309D6C9&submit=submit
-    */
-    background-image: linear-gradient(to right bottom, #09d6c9, #00abb1, #008192, #17596c, #1a3543, #102e40, #07273d, #022039, #00305d, #003f83, #004eaa, #005bd1);
+    background-image: linear-gradient(to left top, #005bd1, #004faa, #004083, #00315d, #002138, #05283b, #0e2e3e, #183541, #155969, #00818f, #00abaf, #09d6c9);
     color: #ffff;
     height: 100vh; 
     background-attachment: fixed; 
