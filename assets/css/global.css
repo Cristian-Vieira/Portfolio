@@ -10,6 +10,9 @@
 }
 
 body{
+    /*Futuramente trocar as cores do gradiente
+    https://mycolor.space/gradient3?ori=to+right+bottom&hex=%23005BD1&hex2=%2304070B&hex3=%2309D6C9&submit=submit
+    */
     background-image: linear-gradient(to right bottom, #09d6c9, #00abb1, #008192, #17596c, #1a3543, #102e40, #07273d, #022039, #00305d, #003f83, #004eaa, #005bd1);
     color: #ffff;
     height: 100vh; 
