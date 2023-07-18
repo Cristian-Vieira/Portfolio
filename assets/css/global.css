@@ -10,8 +10,10 @@
 }
 
 body{
-    background-image: linear-gradient(to left top, #005bd1, #004faa, #004083, #00315d, #002138, #05283b, #0e2e3e, #183541, #155969, #00818f, #00abaf, #09d6c9);
-    color: #ffff;
+    /* background-image: linear-gradient(to left top, #005bd1, #004faa, #004083, #00315d, #002138, #05283b, #0e2e3e, #183541, #155969, #00818f, #00abaf, #09d6c9);
+    */
+    background-color: #111111;
+   color: #ffff;
     height: 100vh; 
     background-attachment: fixed; 
     background-repeat: no-repeat;
