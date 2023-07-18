@@ -1,13 +1,76 @@
-.header{
+.header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    position: relative;
 }
 
-#profileImg{
+#profileImg {
     width: 200px;
     height: 200px;
     border-radius: 50%;
 
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.title {
+    font-family: 'Neue Machina';
+    text-align: center;
+}
+
+.information p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .5rem;
+}
+
+.icons{
+   display: inline-block; 
+   width: 12px;
+   height: 12px;
+   margin-right: .5rem;
+}
+
+#rt{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .header{
+        display: grid;
+        grid-template-areas: 
+        "img title"
+        "img information"
+        ;
+
+    }
+
+    #profileImg{
+        grid-area: img;
+        margin: 0 auto;
+    }
+
+    .title{
+        grid-area: title;
+        text-align: start;
+        max-width: 210px;
+    }
+
+    .information{
+        grid-area: information;
+    }
+
+  }
+

@@ -3,13 +3,38 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Font NeueMachina */
+@font-face {
+    font-family:'Neue Machina' ;
+    src: url(./assets/fonts/NeueMachina-Regular.otf);
+}
+
 body{
-    background-color: #000;
+    background-image: linear-gradient(to right bottom, #09d6c9, #00abb1, #008192, #17596c, #1a3543, #102e40, #07273d, #022039, #00305d, #003f83, #004eaa, #005bd1);
     color: #ffff;
+    height: 100vh; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: contain; 
+    margin: 0;
+    padding: 0;
 }
 
 .main{
-
+    margin: 1rem;
     padding: 1rem;
+    border: 1px solid #fff;
+    border-radius: 1rem;
 
-}
+}  
+
+@media only screen and (min-width: 768px) {
+    
+    .main{
+        max-width: 1024px;
+        margin: 1rem auto;
+        width: 70vw;
+    }
+    
+
+  }
