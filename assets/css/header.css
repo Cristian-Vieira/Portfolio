@@ -31,6 +31,14 @@
     margin: .5rem;
 }
 
+.information p a{
+    color: #fff;
+    text-decoration: none;
+}
+.information p a:hover {
+    text-decoration: underline;
+}
+
 .icons{
    display: inline-block; 
    width: 12px;
