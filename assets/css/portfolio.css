@@ -23,9 +23,17 @@
     font-weight: 700;
     margin: 0;
     margin-bottom: .5rem;
-    /* white-space: nowrap; */
+    white-space: nowrap; 
 }
 
+.portfolio li .title .github {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: .5rem;
+}
+
+
+/* 
 .portfolio li .title.github::before {
     content: '';
     width: 1.25rem;
@@ -35,8 +43,8 @@
     background-image: url('/assets/img/githubIcon.svg');
     display: inline-block;
     margin-right: .5rem;
-
 }
+*/
 
 .portfolio li a {
     color: #fff;
