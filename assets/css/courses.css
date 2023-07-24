@@ -13,7 +13,14 @@
     align-items: center;
     margin: .5rem;
 }
-
+.courses li a{
+    font-family:'Neue Machina' ;
+    color: #fff;
+    text-decoration: none;
+}
+.courses li a:hover{
+    text-decoration: underline;
+}
 .courses li .period::before {
     content: '';
     width: 1rem;
