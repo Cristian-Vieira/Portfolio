@@ -9,9 +9,6 @@
 .education li{
     margin-bottom: 1rem;
 }
-.education h3{
-    white-space: nowrap;
-}
 
 .education li .period {
     display: flex;
@@ -29,4 +26,12 @@
     background-image: url('https://img.icons8.com/ios-filled/50/FFFFFF/calendar--v1.png');
     display: inline-block;
     margin-right: .5rem;
+}
+
+
+@media only screen and (min-width: 765px) {
+
+    .education h3{
+        white-space: nowrap;
+    }
 }
