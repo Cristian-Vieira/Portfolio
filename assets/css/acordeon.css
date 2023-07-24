@@ -10,8 +10,12 @@
 }
 .acordeon.open,
 .acordeon:hover {
+    background-color: #00325d36;
+    border-color: #004083;
+    /*
     background-color: #55569e;
     border-color: #55569e;
+    */
 }
 
 .acordeon .openAcord {
@@ -64,31 +68,3 @@
     opacity: 1;
     padding: 0 1rem 1rem 2rem;
 }
-
-/*
-.languages{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-    list-style:none;
-}
-
-.languages li{
-    padding-right: 1rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-weight: 700;
-    font-size: 1rem;
-}
-
-
-.langIcons{
-    width: 1rem;
-    height: 1rem;
-    margin-right: .5rem;
-}
-*/
