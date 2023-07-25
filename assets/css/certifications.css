@@ -56,3 +56,16 @@
         text-align: left;
     }
 }
+
+.projectIcon{
+    width: 18px;
+    height: 18px;
+    margin-left: 1rem;
+    margin-right: .5rem;
+}
+.courses li .period span a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .5rem;
+}
