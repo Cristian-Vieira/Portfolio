@@ -73,11 +73,12 @@
     .title{
         grid-area: title;
         text-align: start;
-        max-width: 210px;
+        
     }
 
     .information{
         grid-area: information;
+        margin-left: 15pxpx;
     }
 
   }

@@ -11,14 +11,7 @@
 
 body {
 
-    background-image: linear-gradient(to left top,
-            #005bd1,
-            #00315d,
-            #05283b,
-            #0e2e3e,
-            #155969,
-            #09d6c9);
-
+    background-image: linear-gradient(to right bottom, #023859, #003f5c, #00455e, #004b5f, #005160, #005160, #005160, #005160, #004b5f, #00455e, #003f5c, #023859);
     color: #ffff;
     height: 100vh;
     background-attachment: fixed;
