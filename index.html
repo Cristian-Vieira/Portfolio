@@ -170,7 +170,7 @@
         </section>
         <!--Certificados-->
         <section class="acordeon">
-            <button class="openAcord" type="button">
+            <button class="openAcord" type="button" id="certificationsBtn">
                 <h2>Certificações</h2> 
             </button> 
            
@@ -179,7 +179,7 @@
                 <div class="courses">
                     <ul>
                         <li> 
-                            <h3 class="title"> <a href="https://www.sololearn.com/certificates/CT-BPIUZENB" target="_blank">Game Development with JS - Sololearn.com</a></h3>
+                            <h3 class="title" id="tooltip"> <a href="https://www.sololearn.com/certificates/CT-BPIUZENB" target="_blank">Game Development with JS - Sololearn.com</a></h3>
                             <p class="period"> April 2023 <span><a href="https://github.com/Cristian-Vieira/Coin-Collecting-Game" target="_blank"><img class="projectIcon" src="./assets/img/githubIcon.svg" alt="githubIcon"> View the project</a></span></p> 
                         </li>
                         <li> 
@@ -304,5 +304,8 @@
     </main>
  
 <script src="./assets/js/openAcord.js"></script>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+<script src="./assets/js/tooltip.js"></script>
 </body>
 </html>
