@@ -14,13 +14,13 @@
     margin: .5rem;
 }
 
-.courses li a {
+.courses li a, .courses a {
     font-family: 'Neue Machina';
     color: #fff;
     text-decoration: none;
 }
 
-.courses li a:hover {
+.courses li a:hover, .courses a:hover {
     text-decoration: underline;
 }
 
